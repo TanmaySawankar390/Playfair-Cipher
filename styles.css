@@ -3,8 +3,6 @@ body {
     background-color: #f4f4f9;
     background-image: url("1.jpg");
     margin: 6%;
-    margin: 5%;
-    margin: 5%;
     padding: 0;
     display: flex;
     justify-content: center;
@@ -14,6 +12,7 @@ body {
 
 .container {
     background: white;
+
     padding: 5px 30px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -28,13 +27,13 @@ h1 {
 
 form label {
     display: block;
-    margin: 10px 0 5px;
+    margin: 5px 0 5px;
     font-weight: bold;
     color: #555;
 }
 
 form input, form textarea, form select, form button {
-    width: 90%;
+    width: 100%;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ddd;
@@ -76,6 +75,7 @@ img {
     position:absolute;
     top:3%;
     left:21%;
+
 }
 a {
     color: #f4f4f9;
