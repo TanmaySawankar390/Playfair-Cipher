@@ -1,16 +1,10 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
-<<<<<<< HEAD
-<<<<<<< HEAD
     background-image: url("1.jpg");
     margin: 6%;
-=======
     margin: 5%;
->>>>>>> 67b39cea1a5c7a16e9f0dcf50a7d12c7bf712b26
-=======
     margin: 5%;
->>>>>>> 67b39cea1a5c7a16e9f0dcf50a7d12c7bf712b26
     padding: 0;
     display: flex;
     justify-content: center;
@@ -20,16 +14,7 @@ body {
 
 .container {
     background: white;
-
-<<<<<<< HEAD
-<<<<<<< HEAD
     padding: 5px 30px;
-=======
-    padding: 15px 30px;
->>>>>>> 67b39cea1a5c7a16e9f0dcf50a7d12c7bf712b26
-=======
-    padding: 15px 30px;
->>>>>>> 67b39cea1a5c7a16e9f0dcf50a7d12c7bf712b26
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 500px;
@@ -43,15 +28,7 @@ h1 {
 
 form label {
     display: block;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    margin: 5px 0 5px;
-=======
     margin: 10px 0 5px;
->>>>>>> 67b39cea1a5c7a16e9f0dcf50a7d12c7bf712b26
-=======
-    margin: 10px 0 5px;
->>>>>>> 67b39cea1a5c7a16e9f0dcf50a7d12c7bf712b26
     font-weight: bold;
     color: #555;
 }
@@ -99,14 +76,7 @@ img {
     position:absolute;
     top:3%;
     left:21%;
-
-<<<<<<< HEAD
-<<<<<<< HEAD
 }
 a {
     color: #f4f4f9;
-=======
->>>>>>> 67b39cea1a5c7a16e9f0dcf50a7d12c7bf712b26
-=======
->>>>>>> 67b39cea1a5c7a16e9f0dcf50a7d12c7bf712b26
 }
