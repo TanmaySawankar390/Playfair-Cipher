@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playfair Cipher Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        .matrix {
+            display: grid;
+            grid-template-columns: repeat(5, 50px);
+            gap: 5px;
+            justify-content: center;
+            margin: 20px auto;
+        }
+        .matrix div {
+            padding: 10px;
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+        }
+        .matrix div.highlight {
+            background-color: #ffeb3b;
+        }
+        .result, .pairs {
+            margin: 20px;
+            text-align: center;
+        }
+        .button {
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Playfair Cipher Demo</h1>
+    <form id="demoForm">
+        <label for="key">Enter Key:</label>
+        <input type="text" id="key" placeholder="Enter key" required>
+        <br><br>
+        <label for="plaintext">Enter Plaintext:</label>
+        <input type="text" id="plaintext" placeholder="Enter plaintext" required>
+        <br><br>
+        <button type="submit" class="button">Visualize Cipher</button>
+    </form>
+
+    <h2>Playfair Matrix</h2>
+    <div class="matrix" id="matrix"></div>
+
+    <div class="result">
+        <h3>Preprocessed Text:</h3>
+        <p id="preprocessedText"></p>
+    </div>
+
+    <div class="pairs">
+        <h3>Processed Pairs:</h3>
+        <p id="pairDetails"></p>
+    </div>
+
+    <div class="result">
+        <h3>Encrypted Text:</h3>
+        <p id="encryptedText"></p>
+    </div>
+
+    <script src="playfair_demo.js"></script>
+</body>
+</html>
