@@ -41,6 +41,7 @@ function findPosition(matrix, char) {
             }
         }
     }
+      
     return [-1, -1];
 }
 
