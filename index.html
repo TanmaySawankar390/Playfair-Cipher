@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playfair Cipher</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Image -->
+        <div class="header">
+            <img src="ak.png" alt="Playfair Cipher Header" class="header-image">
+            <img src="images.png" alt="Playfair Cipher Header" class="header-image">
+        </div>
+
+        <!-- Main Content -->
+        <h1>Playfair Cipher</h1>
+        <form id="cipherForm">
+            <label for="key">Enter Key:</label>
+            <input type="text" id="key" placeholder="Enter key (e.g., SECURITY)" required>
+            
+            <label for="plaintext">Enter Text:</label>
+            <textarea id="plaintext" placeholder="Enter text to encrypt or decrypt" rows="4" required></textarea>
+            
+            <label for="action">Select Action:</label>
+            <select id="action">
+                <option value="encrypt">Encrypt</option>
+                <option value="decrypt">Decrypt</option>
+            </select>
+            
+            <button type="submit">Submit</button>
+<<<<<<< HEAD
+
+            <button><a href="cipher_demo.html">Visualize</a></button>
+=======
+>>>>>>> 67b39cea1a5c7a16e9f0dcf50a7d12c7bf712b26
+        </form>
+
+        <div id="result">
+            <h3>Result:</h3>
+            <p id="ciphertext"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
