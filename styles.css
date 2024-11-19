@@ -2,8 +2,12 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
 <<<<<<< HEAD
+<<<<<<< HEAD
     background-image: url("1.jpg");
     margin: 6%;
+=======
+    margin: 5%;
+>>>>>>> 67b39cea1a5c7a16e9f0dcf50a7d12c7bf712b26
 =======
     margin: 5%;
 >>>>>>> 67b39cea1a5c7a16e9f0dcf50a7d12c7bf712b26
@@ -18,7 +22,11 @@ body {
     background: white;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     padding: 5px 30px;
+=======
+    padding: 15px 30px;
+>>>>>>> 67b39cea1a5c7a16e9f0dcf50a7d12c7bf712b26
 =======
     padding: 15px 30px;
 >>>>>>> 67b39cea1a5c7a16e9f0dcf50a7d12c7bf712b26
@@ -36,7 +44,11 @@ h1 {
 form label {
     display: block;
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin: 5px 0 5px;
+=======
+    margin: 10px 0 5px;
+>>>>>>> 67b39cea1a5c7a16e9f0dcf50a7d12c7bf712b26
 =======
     margin: 10px 0 5px;
 >>>>>>> 67b39cea1a5c7a16e9f0dcf50a7d12c7bf712b26
@@ -89,9 +101,12 @@ img {
     left:21%;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 a {
     color: #f4f4f9;
+=======
+>>>>>>> 67b39cea1a5c7a16e9f0dcf50a7d12c7bf712b26
 =======
 >>>>>>> 67b39cea1a5c7a16e9f0dcf50a7d12c7bf712b26
 }

@@ -42,7 +42,10 @@ function findPosition(matrix, char) {
         }
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
       
+=======
+>>>>>>> 67b39cea1a5c7a16e9f0dcf50a7d12c7bf712b26
 =======
 >>>>>>> 67b39cea1a5c7a16e9f0dcf50a7d12c7bf712b26
     return [-1, -1];
